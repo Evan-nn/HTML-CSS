@@ -1,0 +1,105 @@
+.bande-haut {
+    width: 105rem;
+    height: 5rem;
+    background-color: #152237;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Logo-Klivio {
+    width: 5.25rem;
+    height: 1.9375rem;
+    angle: 0deg;
+    opacity: 1;
+    top: 1.5625rem;     
+    left: 6.125rem;
+
+}
+
+#Bouton-Les-formations {
+    width: 6.875rem;
+    height: 1.125rem;
+    color: #FFFFFF;
+    position: absolute;
+    top: 1.9375rem;
+    left: 21.875rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    text-align: center;
+    vertical-align: middle;
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+#Bouton-Inscription {
+    width: 8.125rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 1.25rem;
+    left: 90.5625rem;
+    opacity: 1;
+    border-radius: 0.375rem;
+    transform: rotate(0deg);
+    background: linear-gradient(95.98deg, #44DD8A 8.7%, #15B7E2 100%);
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    text-align: center;
+    vertical-align: middle;
+    border-color: #152237;
+    border-radius: 0.5rem;
+}
+
+#Bouton-Connexion {
+    width: 8.125rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 1.25rem;
+    left: 81.25rem;
+    opacity: 1;
+    border-radius: 0.375rem;
+    transform: rotate(0deg);
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(255, 255, 255, 1);
+    border-color: #152237;
+    border-radius: 0.5rem;
+}
+
+#Barre-de-recherche {
+    width: 29.8125rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 1.25rem;
+    left: 37.6875rem;
+    opacity: 1;
+    border-width: 0.0625rem;
+    border-style: solid;
+    transform: rotate(0deg);
+    border: solid #FFFFFF;
+    background-color: #152237;
+    border-radius: 0.5rem;
+}
+
+#Barre-de-recherche::placeholder {
+    color: #FFFFFF;
+    padding-left: 1rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    vertical-align: middle;
+}
