@@ -113,9 +113,11 @@
 }
 
 .photo-titre {
+    position: relative;
     width: 100vw;
     height: auto;
     display: flex;
+    justify-content: center;
     align-items: center;
     box-sizing: border-box;
     background-image:
@@ -125,8 +127,42 @@
     background-position: center;
 }
 
+.photo-titre::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(
+        94.01deg,
+        rgba(68, 221, 138, 0.8) 3.11%,
+        rgba(21, 183, 226, 0.8) 98.45%
+    );
+}
+
 .photo-titre img {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h1-titre {
+    text-align: center;
+    position: relative;
+    color: black;
+    font-size: 2rem;
+    font-family: Montserrat, sans-serif;
+}
+
+#h4-titre {
+    text-align: center;
+    position: relative;
+    color: black;
+    font-size: 1rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
 }
